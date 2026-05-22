@@ -1,0 +1,15 @@
+{
+  "name": "quelora-image-processor",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "quelora_image_processor_bg.wasm",
+    "quelora_image_processor.js",
+    "quelora_image_processor.d.ts"
+  ],
+  "main": "quelora_image_processor.js",
+  "types": "quelora_image_processor.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

@@ -1,0 +1,10 @@
+# Rust build output
+target/
+**/target/
+
+# Generated wasm-pack bindings
+pkg/
+*.d.ts
+
+# Node
+node_modules/
